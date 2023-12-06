@@ -3,9 +3,9 @@ import {
 	BsStar,
 	BsStarFill,
 } from "react-icons/bs";
-
+/* Math Floor redondea los numeros a usar en este caso las estrellas */
 function RatingStars({ rating }) {
-	const filledStars = Math.floor(rating);
+	const filledStars = Math.floor(rating); 
 	const partFilledStar = filledStars + 1;
 
 	const starFilledWidth = (starIndex) => {

@@ -29,12 +29,14 @@ function ShoppingCart({
 						/>
 					</button>
 				</div>
+				{/* Carro vacio */}
 				<div className="cart-products">
 					{products.length === 0 && (
 						<span className="empty-text">
 							Su canasto esta vacio
 						</span>
 					)}
+					{/* Informacion del producto */}
 					{products.map((product) => (
 						<div
 							className="cart-product"
@@ -49,6 +51,7 @@ function ShoppingCart({
 								<h3>
 									{product.name}
 								</h3>
+								{/* suma de los precios */}
 								<span className="product-price">
 									{product.price *
 										product.count}

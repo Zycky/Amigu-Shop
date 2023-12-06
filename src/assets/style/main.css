@@ -8,9 +8,9 @@
 }
 
 :root {
-	--main-color: #065a82;
+	--main-color: #4a0682;
 	--text-color: #232323;
-	--secondary-color: #0797b0;
+	--secondary-color: rgb(255, 238, 0);
 }
 
 .App {
