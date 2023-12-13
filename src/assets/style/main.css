@@ -94,7 +94,15 @@ main {
 	height: 55%;
 	object-fit: contain;
 	background-color: #fff;
+	filter: grayscale(100%); /* Filtro blanco y negro para demostrar animacion */
+    transition: filter 0.5s ease;
 }
+
+.product:hover img,
+.product:focus img {
+filter: grayscale(0%); /* Cambio a imagen original */
+}
+
 
 .product-name {
 	margin-top: 10px;
