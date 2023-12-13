@@ -114,6 +114,7 @@ function ShoppingCart({
 					{products.length > 0 && (
 						<button className="btn checkout-btn">
 							Proceder al pago
+
 						</button>
 					)}
 				</div>

@@ -157,3 +157,37 @@ main {
 	background-color: var(--main-color);
 	color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+	:root {
+	  /* Ajustes de color específicos para pantallas pequeñas */
+	  --main-color: #FF5733; /* Cambia el color principal para pantallas pequeñas */
+	}
+  
+	.navbar {
+	  /* Ajustes de estilo para la barra de navegación en pantallas pequeñas */
+	  padding: 10px;
+	}
+  
+	main {
+	  /* Ajustes de estilo para la sección principal en pantallas pequeñas */
+	  width: 90%;
+	}
+  
+	.product {
+	  /* Ajustes de estilo para los productos en pantallas pequeñas */
+	  height: auto;
+	  flex-basis: 48%; /* Dos productos por fila en lugar de cuatro */
+	  margin: 1%;
+	}
+  
+	.buttons .btn {
+	  /* Ajustes de estilo para los botones en pantallas pequeñas */
+	  width: 100%;
+	}
+  
+	.shoppingCart {
+	  /* Ajustes de estilo para el carrito de compras en pantallas pequeñas */
+	  width: 90%;
+	}
+  }
